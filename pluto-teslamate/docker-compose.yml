@@ -17,8 +17,8 @@ services:
       - DATABASE_NAME=teslamate
       - DATABASE_HOST=database
       - MQTT_HOST=mosquitto
-    ports:
-      - 4000:4000
+    # ports:
+    #   - 4000:4000
     volumes:
       - ./import:/opt/app/import
     cap_drop:
@@ -42,8 +42,8 @@ services:
       - DATABASE_PASS=N0TS3CUR3!69 #insert your secure database password!
       - DATABASE_NAME=teslamate
       - DATABASE_HOST=database
-    ports:
-      - 3000:3000
+    # ports:
+    #   - 3000:3000
     volumes:
       - teslamate-grafana-data:/var/lib/grafana
 
@@ -51,8 +51,6 @@ services:
     image: eclipse-mosquitto:2
     restart: always
     command: mosquitto -c /mosquitto-no-auth.conf
-    # ports:
-    #   - 1883:1883
     volumes:
       - mosquitto-conf:/mosquitto/config
       - mosquitto-data:/mosquitto/data
