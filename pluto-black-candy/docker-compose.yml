@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+
+  # app_proxy:
+  #   environment:
+  #     # The format here is: <app-id>_<docker-service-name>_1
+  #     APP_HOST: pluto-hello-world_server_1
+  #     APP_PORT: 3000
+    
+  app:
+    image: ghcr.io/blackcandy-org/blackcandy:edge 
+    volumes:
+      - ./log:/app/log
+      - ./production.sqlite3:/app/db/production.sqlite3
+      - ./uploads_data:/app/public/uploads
+      - ./media_data:/media_data
+    environment:
+      VIRTUAL_HOST: umbrel.local
+      MEDIA_PATH: /media_data
+      # NGINX_SENDFILE: "true" # Don't foreget to set `NGINX_SENDFILE` environment variable to true to enable nginx sendfile.
+    ports:
+      - 4071:3000

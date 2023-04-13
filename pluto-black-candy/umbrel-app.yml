@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: pluto-black-candy
+name: BlackCandy (WorkInProgress)
+tagline: A self hosted music streaming server
+icon: https://raw.githubusercontent.com/blackcandy-org/black_candy/master/app/assets/images/logo.svg
+category: Media
+version: "0.0.1"
+port: 4071
+description: >-
+  Black Candy is a self hosted music streaming server built with Rails and Hotwire. The goal of the project is to create a real personal music center.
+
+developer: blackcandy-org
+website: https://github.com/blackcandy-org/black_candy
+submitter: mr0x50
+submission: https://github.com/blackcandy-org/black_candy
+repo: https://github.com/blackcandy-org/black_candy
+support: https://github.com/blackcandy-org/black_candy/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial Release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
