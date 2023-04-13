@@ -4,8 +4,14 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: pluto-teslamate-app-proxy-1
+      APP_HOST: pluto-teslamate_teslamate-1
       APP_PORT: 4000
+
+  app_proxy_2:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: pluto-teslamate_grafana-1
+      APP_PORT: 3000
 
   teslamate:
     image: teslamate/teslamate:latest

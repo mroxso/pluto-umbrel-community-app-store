@@ -9,6 +9,14 @@ port: 4069
 description: >-
   A self-hosted data logger for your Tesla 🚘
 
+  Installation:
+    1. Install this app
+    2. Wait for the app to start
+    3. Open the setup app in your browser (http://umbrel.local:4000/)
+    4. Follow the instructions on the setup app
+    5. Open the TeslaMate app in your browser (http://umbrel.local:4069/)
+    6. Login with the default credentials (you will be asked to change them on first login)
+
 developer: adriankumpf
 website: https://github.com/adriankumpf/teslamate
 submitter: mr0x50
