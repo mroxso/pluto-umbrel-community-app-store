@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: pluto-teslamate
+name: TeslaMate
+tagline: A self-hosted data logger for your Tesla 🚘
+icon: https://docs.teslamate.org/img/logo.svg
+category: Vehicle
+version: "0.0.1"
+port: 4069
+description: >-
+  A self-hosted data logger for your Tesla 🚘
+
+developer: adriankumpf
+website: https://github.com/adriankumpf/teslamate
+submitter: mr0x50
+submission: https://github.com/adriankumpf/teslamate
+repo: https://github.com/adriankumpf/teslamate
+support: https://github.com/adriankumpf/teslamate/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
