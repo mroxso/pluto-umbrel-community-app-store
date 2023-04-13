@@ -4,7 +4,7 @@ name: Hello World
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1.0.0"
+version: "1.0.1"
 port: 4500
 description: >-
   Add your app's description here.
