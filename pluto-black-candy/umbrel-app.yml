@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: pluto-black-candy
-name: BlackCandy
+name: BlackCandy (WorkInProgress)
 tagline: A self hosted music streaming server
 icon: https://raw.githubusercontent.com/blackcandy-org/black_candy/master/app/assets/images/logo.svg
 category: Media
