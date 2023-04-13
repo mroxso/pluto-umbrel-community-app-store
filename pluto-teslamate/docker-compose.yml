@@ -42,8 +42,8 @@ services:
       - DATABASE_PASS=N0TS3CUR3!69 #insert your secure database password!
       - DATABASE_NAME=teslamate
       - DATABASE_HOST=database
-    # ports:
-    #   - 3000:3000
+    ports:
+      - 4070:3000
     volumes:
       - teslamate-grafana-data:/var/lib/grafana
 
