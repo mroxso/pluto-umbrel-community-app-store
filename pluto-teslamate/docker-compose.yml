@@ -1,11 +1,11 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: pluto-teslamate_teslamate-1
-      APP_PORT: 4000
+  # app_proxy:
+  #   environment:
+  #     # The format here is: <app-id>_<docker-service-name>_1
+  #     APP_HOST: pluto-teslamate_teslamate-1
+  #     APP_PORT: 4000
 
   teslamate:
     image: teslamate/teslamate:latest
@@ -17,8 +17,8 @@ services:
       - DATABASE_NAME=teslamate
       - DATABASE_HOST=database
       - MQTT_HOST=mosquitto
-    # ports:
-    #   - 4069:4000
+    ports:
+      - 4069:4000
     volumes:
       - ./import:/opt/app/import
     cap_drop:

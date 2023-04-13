@@ -4,7 +4,7 @@ name: TeslaMate (WorkInProgress)
 tagline: A self-hosted data logger for your Tesla 🚘
 icon: https://docs.teslamate.org/img/logo.svg
 category: Vehicle
-version: "0.0.4"
+version: "0.0.5"
 port: 4069
 description: >-
   A self-hosted data logger for your Tesla 🚘
