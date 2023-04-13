@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: pluto-teslamate
-name: TeslaMate
+name: TeslaMate (WorkInProgress)
 tagline: A self-hosted data logger for your Tesla 🚘
 icon: https://docs.teslamate.org/img/logo.svg
 category: Vehicle
-version: "0.0.3"
+version: "0.0.4"
 port: 4069
 description: >-
   A self-hosted data logger for your Tesla 🚘
@@ -28,7 +28,7 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Initial release
+  Updated Ports and Installation Instructions
 dependencies: []
 path: ""
 defaultUsername: ""
