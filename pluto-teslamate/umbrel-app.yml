@@ -4,7 +4,7 @@ name: TeslaMate (WorkInProgress)
 tagline: A self-hosted data logger for your Tesla 🚘
 icon: https://docs.teslamate.org/img/logo.svg
 category: Vehicle
-version: "0.0.5"
+version: "0.1.0"
 port: 4069
 description: >-
   A self-hosted data logger for your Tesla 🚘
@@ -12,10 +12,10 @@ description: >-
   Installation:
     1. Install this app
     2. Wait for the app to start
-    3. Open the setup app in your browser (http://umbrel.local:4000/)
+    3. Open the setup app in your browser (http://umbrel.local:4069/)
     4. Follow the instructions on the setup app
-    5. Open the TeslaMate app in your browser (http://umbrel.local:4069/)
-    6. Login with the default credentials (you will be asked to change them on first login)
+    5. Open the TeslaMate Grafana Dashboard in your browser (http://umbrel.local:4070/)
+    6. Login with the default credentials (admin/admin) (you will be asked to change them on first login)
 
 developer: adriankumpf
 website: https://github.com/adriankumpf/teslamate
@@ -31,5 +31,5 @@ releaseNotes: >-
   Updated Ports and Installation Instructions
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "admin"
