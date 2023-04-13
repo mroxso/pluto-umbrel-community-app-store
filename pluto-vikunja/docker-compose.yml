@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+
+  # app_proxy:
+  #   environment:
+  #     # The format here is: <app-id>_<docker-service-name>_1
+  #     APP_HOST: pluto-hello-world_server_1
+  #     APP_PORT: 3000
+    
+  vikunja:
+    image: vikunja/api:latest
+    user: "1000:1000"
+    init: true
