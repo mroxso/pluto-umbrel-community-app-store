@@ -10,6 +10,7 @@ services:
   teslamate:
     image: teslamate/teslamate:latest
     restart: always
+    user: "1000:1000"
     environment:
       - ENCRYPTION_KEY=N0TS3CUR3!69 #insert a secure key to encrypt your Tesla API tokens
       - DATABASE_USER=teslamate
@@ -32,7 +33,7 @@ services:
       - POSTGRES_PASSWORD=N0TS3CUR3!69 #insert your secure database password!
       - POSTGRES_DB=teslamate
     volumes:
-      - teslamate-db:/var/lib/postgresql/data
+      - ./data/teslamate-db:/var/lib/postgresql/data
 
   grafana:
     image: teslamate/grafana:latest
@@ -45,18 +46,12 @@ services:
     ports:
       - 4070:3000
     volumes:
-      - teslamate-grafana-data:/var/lib/grafana
+      - ./data/teslamate-grafana-data:/var/lib/grafana
 
   mosquitto:
     image: eclipse-mosquitto:2
     restart: always
     command: mosquitto -c /mosquitto-no-auth.conf
     volumes:
-      - mosquitto-conf:/mosquitto/config
-      - mosquitto-data:/mosquitto/data
-
-volumes:
-  teslamate-db:
-  teslamate-grafana-data:
-  mosquitto-conf:
-  mosquitto-data:
+      - ./data/mosquitto-conf:/mosquitto/config
+      - ./data/mosquitto-data:/mosquitto/data
