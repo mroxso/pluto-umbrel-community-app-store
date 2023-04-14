@@ -38,6 +38,7 @@ services:
   grafana:
     image: teslamate/grafana:latest
     restart: always
+    user: "1000:1000"
     environment:
       - DATABASE_USER=teslamate
       - DATABASE_PASS=N0TS3CUR3!69 #insert your secure database password!
