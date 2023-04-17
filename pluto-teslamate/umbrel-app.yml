@@ -4,7 +4,7 @@ name: TeslaMate (WorkInProgress)
 tagline: A self-hosted data logger for your Tesla 🚘
 icon: https://docs.teslamate.org/img/logo.svg
 category: Vehicle
-version: "0.1.2"
+version: "0.1.3"
 port: 4069
 description: >-
   A self-hosted data logger for your Tesla 🚘
@@ -28,9 +28,7 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  - Updated Volumes to use Directory in umbrel app-data (MAYBE YOUR NEED TO RECONFIGURE YOUR APP!)
-  
-  - Updated TeslaMate Docker Service to use user 1000:1000
+  - Update to use Docker Volumes for Grafana Dashboard
 dependencies: []
 path: ""
 defaultUsername: "admin"

@@ -47,7 +47,7 @@ services:
     ports:
       - 4070:3000
     volumes:
-      - ./data/teslamate-grafana-data:/var/lib/grafana
+      - teslamate-grafana-data:/var/lib/grafana
 
   mosquitto:
     image: eclipse-mosquitto:2
@@ -56,3 +56,9 @@ services:
     volumes:
       - ./data/mosquitto-conf:/mosquitto/config
       - ./data/mosquitto-data:/mosquitto/data
+
+volumes:
+  # teslamate-db:
+  teslamate-grafana-data:
+  # mosquitto-conf:
+  # mosquitto-data:
