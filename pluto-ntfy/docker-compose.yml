@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+
+  # app_proxy:
+  #   environment:
+  #     # The format here is: <app-id>_<docker-service-name>_1
+  #     APP_HOST: pluto-ntfy_ntfy_1
+  #     APP_PORT: 3000
+  
+  ntfy:
+    image: binwiederhier/ntfy
+    container_name: ntfy
+    command:
+      - serve
+    environment:
+      - TZ=UTC    # optional: Change to your desired timezone
+    user: 1000:1000 # optional: Set custom user/group or uid/gid
+    volumes:
+      - ./cache/ntfy:/var/cache/ntfy
+      - ./ntfy:/etc/ntfy
+    ports:
+      - 4080:80
+    restart: unless-stopped

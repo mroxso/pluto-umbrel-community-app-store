@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: pluto-ntfy
+name: Ntfy
+tagline: Push notifications made easy
+icon: https://ntfy.sh/_next/static/media/logo.077f6a13.svg
+category: Development
+version: "1.0.1"
+port: 4500
+description: >-
+  ntfy (pronounced notify) is a simple HTTP-based pub-sub notification service.
+  It allows you to send notifications to your phone or desktop via scripts from any computer, and/or using a REST API.
+  It's infinitely flexible, and 100% free software.
+
+developer: ntfy Team
+website: https://ntfy.sh/
+submitter: mr0x50
+submission: https://github.com/binwiederhier/ntfy
+repo: https://github.com/binwiederhier/ntfy
+support: https://github.com/binwiederhier/ntfy/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial Release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
