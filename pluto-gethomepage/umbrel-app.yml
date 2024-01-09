@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: pluto-gethomepage
+name: Get HomePage
+tagline: A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations. 
+icon: https://avatars.githubusercontent.com/u/122929872?s=48&v=4
+category: Home & Automation
+version: "1.0.0"
+port: 4072
+description: >-
+  A modern, fully static, fast, secure fully proxied, highly customizable application dashboard
+  with integrations for over 100 services and translations into multiple languages.
+  
+  Easily configured via YAML files or through docker label discovery.
+
+developer: gethomepage
+website: https://github.com/gethomepage/homepage
+submitter: highperfocused
+submission: https://github.com/gethomepage/homepage
+repo: https://github.com/gethomepage/homepage
+support: https://github.com/gethomepage/homepage
+gallery:
+  - https://github.com/gethomepage/homepage/blob/main/images/1.png?raw=true
+  - https://github.com/gethomepage/homepage/blob/main/images/2.png?raw=true
+  - https://github.com/gethomepage/homepage/blob/main/images/3.png?raw=true
+  - https://github.com/gethomepage/homepage/blob/main/images/4.png?raw=true
+  - https://github.com/gethomepage/homepage/blob/main/images/5.png?raw=true
+  - https://github.com/gethomepage/homepage/blob/main/images/6.png?raw=true
+releaseNotes: >-
+  Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

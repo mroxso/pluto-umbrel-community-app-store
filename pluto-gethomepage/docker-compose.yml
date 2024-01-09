@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: pluto-gethomepage_server_1
+      APP_PORT: 3000
+    
+  server:
+    image: ghcr.io/gethomepage/homepage:latest
+    volumes:
+      - ${APP_DATA_DIR}/gethomepage/config:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - INIT_ASSETS=1
+    restart: on-failure
+    user: "1000:1000"
+    init: true
