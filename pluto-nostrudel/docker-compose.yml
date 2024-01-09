@@ -10,5 +10,4 @@ services:
     
   server:
     image: ghcr.io/hzrd149/nostrudel:master
-    user: "1000:1000"
     init: true
