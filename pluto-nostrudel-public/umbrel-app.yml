@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: pluto-nostrudel-public
+name: NoStrudel (public)
+tagline: A sandbox for exploring nostr
+icon: https://raw.githubusercontent.com/hzrd149/nostrudel/master/screenshots/icon.svg
+category: Nostr
+version: "0.0.2"
+port: 4999
+description: >-
+  ATTENTION: This service needs no Umbrel Login! To use it with Umbrel Login, take a look at the non public version.
+
+  noStrudel is a web app for exploring the nostr protocol.
+
+  The goal of this project is to build a nostr client that lets a user explore the nostr protocol by showing as much information as possible and letting the user view the underlying events.
+
+developer: hzrd149
+website: https://github.com/hzrd149/nostrudel
+submitter: highperfocused
+submission: https://github.com/hzrd149/nostrudel
+repo: https://github.com/hzrd149/nostrudel
+support: https://github.com/hzrd149/nostrudel
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
