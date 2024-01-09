@@ -2,9 +2,9 @@ manifestVersion: 1
 id: pluto-nostrudel
 name: NoStrudel
 tagline: A sandbox for exploring nostr
-icon: https://github.com/hzrd149/nostrudel/blob/master/screenshots/icon.svg
+icon: https://raw.githubusercontent.com/hzrd149/nostrudel/master/screenshots/icon.svg
 category: Nostr
-version: "0.0.1"
+version: "0.0.2"
 port: 4601
 description: >-
   noStrudel is a web app for exploring the nostr protocol.
@@ -13,7 +13,7 @@ description: >-
 
 developer: hzrd149
 website: https://github.com/hzrd149/nostrudel
-submitter: Umbrel
+submitter: highperfocused
 submission: https://github.com/hzrd149/nostrudel
 repo: https://github.com/hzrd149/nostrudel
 support: https://github.com/hzrd149/nostrudel
