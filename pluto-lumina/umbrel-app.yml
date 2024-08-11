@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: pluto-lumina
+name: Lumina
+tagline: A Nostr Client for scrolling through Images on nostr 
+icon: https://avatars.githubusercontent.com/u/155488642?s=48&v=4
+category: Nostr
+version: "0.0.1"
+port: 4602
+description: >-
+  A social media for images and pictures 📸
+developer: highperfocused
+website: https://lumina.rocks
+submitter: highperfocused
+submission: https://github.com/lumina-rocks/lumina
+repo: https://github.com/lumina-rocks/lumina
+support: https://github.com/lumina-rocks/lumina
+gallery: ""
+releaseNotes: >-
+  Initial release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

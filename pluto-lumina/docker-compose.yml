@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: pluto-lumina_web_1
+      APP_PORT: 3000
+    
+  web:
+    image: ghcr.io/lumina-rocks/lumina:main
+    init: true
